@@ -106,8 +106,9 @@ button:focus-visible, a:focus-visible { outline: 2px solid currentColor; outline
 .links .social-facebook img { width: 27px; height: 27px; }
 .links .social-youtube img, .links .social-fatalfans img { transform: translate(2px, 2px); }
 @media (max-width: 600px) {
-  .links { display: grid; grid-template-columns: repeat(4, 58px); width: max-content; max-width: 100%; }
-  .links .social-fatalfans { grid-column: 3; grid-row: 2; }
+  .links { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); width: 100%; gap: 6px; }
+  .links a { width: 100%; height: auto; aspect-ratio: 1; min-width: 0; }
+  .links .social-fatalfans { grid-column: auto; grid-row: auto; }
 }
 
 /* A short, gently eased entrance, with a quicker fade on dismissal. */
