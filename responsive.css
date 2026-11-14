@@ -101,6 +101,10 @@ button:focus-visible, a:focus-visible { outline: 2px solid currentColor; outline
 .links a:nth-child(1) img, .links a:nth-child(2) img, .links a#privacy img { width: 26px; height: 26px; }
 .links a:nth-child(3) img, .links .social-fatalfans img { width: 28px; height: 28px; }
 .links .social-facebook img { width: 27px; height: 27px; }
+@media (max-width: 600px) {
+  .links { display: grid; grid-template-columns: repeat(4, 58px); width: max-content; max-width: 100%; }
+  .links .social-fatalfans { grid-column: 3; grid-row: 2; }
+}
 
 /* A short, gently eased entrance, with a quicker fade on dismissal. */
 .menu {
