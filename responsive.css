@@ -135,4 +135,3 @@ button:focus-visible, a:focus-visible { outline: 2px solid currentColor; outline
   .search-panel.open, .wishlist-panel.open,
   .search-panel.open .panel-heading, .wishlist-panel.open .panel-heading { animation: none; }
 }
-
