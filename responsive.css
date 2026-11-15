@@ -111,7 +111,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid currentColor; outline
   .links .social-fatalfans { grid-column: auto; grid-row: auto; }
 }
 
-.links .social-youtube img { width: 26px; height: 26px; transform: none; }
+.links .social-youtube img { width: 26px; height: 26px; transform: translate(2px, 2px); }
 
 /* A short, gently eased entrance, with a quicker fade on dismissal. */
 .menu {
